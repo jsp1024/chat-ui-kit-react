@@ -14,6 +14,11 @@ const LastActivityTime = ({ time }) => (
   </div>
 );
 
+LastActivityTime.propTypes = {
+	time: PropTypes.string
+};
+
+
 const UnreadDot = () => <div className={`${cName}__unread-dot`}></div>;
 
 export const Conversation = ({
