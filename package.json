@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chatscope/chat-ui-kit-react.git"
+    "url": "https://github.com/jsp1024/chat-ui-kit-react.git"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
@@ -91,12 +91,6 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "classnames": "^2.5.1",
     "prop-types": "^15.7.2"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{js,css,md,jsx}": "prettier --write"
