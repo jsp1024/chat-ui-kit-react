@@ -117,11 +117,13 @@ export class ContentEditable extends Component {
       } = this,
       ph = typeof placeholder === "string" ? placeholder : "";
 
+    const contentEditable = disabled === false ? false : true
+
     return (
       <div
         ref={msgRef}
         className={className}
-        contentEditable={disabled === false}
+        contentEditable={contentEditable}
         disabled={disabled}
         data-placeholder={ph}
         onInput={handleInput}
