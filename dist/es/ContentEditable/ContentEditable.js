@@ -125,6 +125,7 @@ export var ContentEditable = /*#__PURE__*/function (_Component) {
         ref: msgRef,
         className: className,
         contentEditable: contentEditable,
+        disabled: disabled,
         "data-placeholder": ph,
         onInput: handleInput,
         onKeyPress: handleKeyPress,
