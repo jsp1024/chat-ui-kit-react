@@ -120,7 +120,7 @@ export var ContentEditable = /*#__PURE__*/function (_Component) {
         disabled = _this$props3.disabled,
         className = _this$props3.className,
         ph = typeof placeholder === "string" ? placeholder : "";
-      var contentEditable = disabled === false ? true : false;
+      var contentEditable = disabled === false ? "plaintext-only" : "false";
       return /*#__PURE__*/React.createElement("div", {
         ref: msgRef,
         className: className,
