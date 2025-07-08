@@ -117,7 +117,7 @@ export class ContentEditable extends Component {
       } = this,
       ph = typeof placeholder === "string" ? placeholder : "";
 
-    const contentEditable = disabled === false ? false : true
+    const contentEditable = disabled === false ? true : false
 
     return (
       <div
