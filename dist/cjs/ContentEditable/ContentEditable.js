@@ -129,10 +129,11 @@ var ContentEditable = exports.ContentEditable = /*#__PURE__*/function (_Componen
         disabled = _this$props3.disabled,
         className = _this$props3.className,
         ph = typeof placeholder === "string" ? placeholder : "";
+      var contentEditable = disabled === false ? true : false;
       return /*#__PURE__*/_react["default"].createElement("div", {
         ref: msgRef,
         className: className,
-        contentEditable: disabled === false,
+        contentEditable: contentEditable,
         disabled: disabled,
         "data-placeholder": ph,
         onInput: handleInput,
