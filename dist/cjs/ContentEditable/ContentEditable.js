@@ -134,7 +134,6 @@ var ContentEditable = exports.ContentEditable = /*#__PURE__*/function (_Componen
         ref: msgRef,
         className: className,
         contentEditable: contentEditable,
-        disabled: disabled,
         "data-placeholder": ph,
         onInput: handleInput,
         onKeyPress: handleKeyPress,
